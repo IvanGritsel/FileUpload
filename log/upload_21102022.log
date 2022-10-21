@@ -82,3 +82,11 @@
 [DEBUG] [21-10-2022 10:05:11 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
 [INFO] [21-10-2022 10:05:11 UTC+00:00] getAll Accessing all files
 [DEBUG] [21-10-2022 10:05:11 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 11:14:00 UTC+00:00] App\Service\FileService->getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 11:14:00 UTC+00:00] App\Service\FileService->getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 11:14:00 UTC+00:00] App\Service\FileService->getAll Accessing all files
+[DEBUG] [21-10-2022 11:14:00 UTC+00:00] App\Service\FileService->getAll Sending back 5 file(s)
+[INFO] [21-10-2022 11:22:53 UTC+00:00] App\Service\FileService->getFilesSize() Accessing size of stored files
+[DEBUG] [21-10-2022 11:22:53 UTC+00:00] App\Service\FileService->getFilesSize() Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 11:22:53 UTC+00:00] App\Service\FileService->getAll() Accessing all files
+[DEBUG] [21-10-2022 11:22:53 UTC+00:00] App\Service\FileService->getAll() Sending back 5 file(s)

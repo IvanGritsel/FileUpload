@@ -23,7 +23,7 @@ class Logger
     {
         $toWrite = "[$level->value] ";
         $toWrite .= '[' . date('d-m-Y H:i:s eP') . '] ';
-        $toWrite .= debug_backtrace()[1]['function'] . ' ';
+        $toWrite .= debug_backtrace()[1]['class'] . '->' . debug_backtrace()[1]['function'] . '() ';
         $toWrite .= $message . "\r\n";
 
         return $this->writeLog($toWrite);
