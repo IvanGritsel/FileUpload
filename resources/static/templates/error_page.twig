@@ -1,0 +1,10 @@
+<head>
+    <title>{% block title %}{{ errorCode }}{% endblock %}</title>
+</head>
+<body>
+{% block body %}
+{% block body_container_main_content %}
+    <h1>Error {{ errorCode }} has occurred</h1>
+{% endblock %}
+{% endblock %}
+</body>

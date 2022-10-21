@@ -1,0 +1,18 @@
+{
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "ext-sockets": "*",
+    "doctrine/annotations": "*",
+    "twig/twig": "*",
+    "friendsofphp/php-cs-fixer": "*",
+    "ext-exif": "*"
+  }
+}

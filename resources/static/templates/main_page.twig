@@ -1,0 +1,77 @@
+<head>
+    <title>{% block title %}{{ pageTitle }}{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+              integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://bootstrap5.ru/css/docs.css">
+    {% endblock %}
+</head>
+<body style="background-color: #eee; display: flex; flex-direction: row; justify-content: center">
+{% block body %}
+    {% block body_container_main_content %}
+        <div style="display: flex; width: 90%; height: 85%; margin: 3%"
+             class="card rounded-5">
+            <form method="POST" enctype="multipart/form-data" action="../handler/uploadHandler.php"
+                  style="width: available; display: flex; flex-direction: row">
+                <div class="file-input-wrapper" style="display: flex; border: dimgrey dashed; border-radius: 0.3rem;
+                    width: 100%; margin: 10px">
+                    <input type="file" style="margin: 5px; width: 100%" name="file_input"/>
+                </div>
+                <button type="submit" style="margin: 10px" class="btn btn-outline-success">Upload</button>
+            </form>
+            <div>
+                {% if error|length > 0 %}
+                    {% if error == 'size' %}
+                        <p>Files cannot be larger than 2MB</p>
+                    {% elseif error == 'format' %}
+                        <p>This type is not supported</p>
+                        {% elseif error == 'alreadyExist' %}
+                        <p>This file already exist</p>
+                    {% endif %}
+                {% endif %}
+            </div>
+            <h4 style="margin: 10px">Uploaded files</h4>
+            <div style="margin: 10px; overflow-y: scroll">
+                {% if files|length > 0 %}
+                    <table style="width: available" class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <th scope="col">File name</th>
+                            <th scope="col">File size</th>
+                            <th scope="col">Metadata</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for file in files %}
+                            <tr>
+                                <td>{{ file.name }}</td>
+                                <td>{{ file.size }} B</td>
+                                <td>
+                                    <ul>
+                                        {% for key,value in file.meta %}
+                                            {% if key != 0 %}
+                                                <li>
+                                                    {{ key }}: {{ value }}
+                                                </li>
+                                            {% else %}
+                                                <li>
+                                                    {{ value }}
+                                                </li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                {% else %}
+                    <p>There are no uploaded files. Be the first one to upload!</p>
+
+                {% endif %}
+            </div>
+        </div>
+    {% endblock %}
+{% endblock %}
+</body>

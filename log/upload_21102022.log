@@ -1,0 +1,84 @@
+[INFO] [21-10-2022 10:00:29 UTC+00:00] getFilesSize Accessing size of stored files
+[WARNING] [21-10-2022 10:00:29 UTC+00:00] uploadsExistOrCreate Uploads directory was not found and was created
+[INFO] [21-10-2022 10:00:36 UTC+00:00] add Creating new file
+[INFO] [21-10-2022 10:00:36 UTC+00:00] add Trying to create "amogus.png" file
+[INFO] [21-10-2022 10:00:36 UTC+00:00] add "amogus.png" successfully created. Size: 271 B
+[INFO] [21-10-2022 10:00:36 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:00:36 UTC+00:00] getFilesSize Files appear to occupy 271 B of space
+[INFO] [21-10-2022 10:00:36 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:00:36 UTC+00:00] getAll Sending back 1 file(s)
+[INFO] [21-10-2022 10:00:42 UTC+00:00] add Creating new file
+[INFO] [21-10-2022 10:00:42 UTC+00:00] add Trying to create "amogus.jpg" file
+[INFO] [21-10-2022 10:00:42 UTC+00:00] add "amogus.jpg" successfully created. Size: 1724 B
+[INFO] [21-10-2022 10:00:42 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:00:42 UTC+00:00] getFilesSize Files appear to occupy 1995 B of space
+[INFO] [21-10-2022 10:00:42 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:00:42 UTC+00:00] getAll Sending back 2 file(s)
+[INFO] [21-10-2022 10:00:48 UTC+00:00] add Creating new file
+[INFO] [21-10-2022 10:00:48 UTC+00:00] add Trying to create "amogus.bmp" file
+[INFO] [21-10-2022 10:00:48 UTC+00:00] add "amogus.bmp" successfully created. Size: 338 B
+[INFO] [21-10-2022 10:00:48 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:00:48 UTC+00:00] getFilesSize Files appear to occupy 2333 B of space
+[INFO] [21-10-2022 10:00:48 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:00:48 UTC+00:00] getAll Sending back 3 file(s)
+[INFO] [21-10-2022 10:00:57 UTC+00:00] add Creating new file
+[INFO] [21-10-2022 10:00:57 UTC+00:00] add Trying to create "amogus.bmp" file
+[WARNING] [21-10-2022 10:00:57 UTC+00:00] add "amogus.bmp" already exist in uploads
+[INFO] [21-10-2022 10:00:57 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:00:57 UTC+00:00] getFilesSize Files appear to occupy 2333 B of space
+[INFO] [21-10-2022 10:00:57 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:00:57 UTC+00:00] getAll Sending back 3 file(s)
+[INFO] [21-10-2022 10:01:06 UTC+00:00] add Creating new file
+[INFO] [21-10-2022 10:01:06 UTC+00:00] add Trying to create "text stuff.txt" file
+[INFO] [21-10-2022 10:01:06 UTC+00:00] add "text stuff.txt" successfully created. Size: 448 B
+[INFO] [21-10-2022 10:01:06 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:01:06 UTC+00:00] getFilesSize Files appear to occupy 2781 B of space
+[INFO] [21-10-2022 10:01:06 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:01:06 UTC+00:00] getAll Sending back 4 file(s)
+[INFO] [21-10-2022 10:01:14 UTC+00:00] add Creating new file
+[INFO] [21-10-2022 10:01:14 UTC+00:00] add Trying to create "cat.gif" file
+[INFO] [21-10-2022 10:01:14 UTC+00:00] add "cat.gif" successfully created. Size: 641790 B
+[INFO] [21-10-2022 10:01:14 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:01:14 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:01:14 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:01:14 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:01:24 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:01:24 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:01:24 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:01:24 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:02:47 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:02:47 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:02:47 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:02:47 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:03:44 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:03:44 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:03:44 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:03:44 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:03:59 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:03:59 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:03:59 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:03:59 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:04:00 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:04:00 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:04:00 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:04:00 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:04:22 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:04:22 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:04:22 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:04:22 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:04:23 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:04:23 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:04:23 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:04:23 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:04:42 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:04:42 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:04:42 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:04:42 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:04:57 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:04:57 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:04:57 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:04:57 UTC+00:00] getAll Sending back 5 file(s)
+[INFO] [21-10-2022 10:05:11 UTC+00:00] getFilesSize Accessing size of stored files
+[DEBUG] [21-10-2022 10:05:11 UTC+00:00] getFilesSize Files appear to occupy 644571 B of space
+[INFO] [21-10-2022 10:05:11 UTC+00:00] getAll Accessing all files
+[DEBUG] [21-10-2022 10:05:11 UTC+00:00] getAll Sending back 5 file(s)
